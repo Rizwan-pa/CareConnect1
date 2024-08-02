@@ -1,0 +1,90 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background color */
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 1rem;
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color */
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px; /* Increase spacing between letters */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+p {
+    text-align: center;
+    padding: 1rem;
+    margin: 20px auto;
+    max-width: 800px; /* Limit paragraph width */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333; /* Dark gray text color */
+    background-color: #fff; /* White background for paragraph */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjusted space between containers */
+    padding: 30px;
+    max-width: 1200px; /* Max width of the container */
+    margin: 0 auto; /* Center align the container */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is spaced out properly */
+    flex: 1 1 calc(50% - 20px); /* Adjusted for gap between boxes */
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: center;
+    background-color: #fff; /* White background for each box */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    border-radius: 8px; /* Rounded corners for boxes */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    padding: 0; /* Remove padding inside box to align image correctly */
+}
+
+.box img {
+    width: 100%; /* Image stretches to full width of container */
+    height: 300px; /* Adjust image height based on aspect ratio */
+    object-fit: cover; /* Ensure image covers area without distortion */
+    border-bottom: 1px solid #ddd; /* Light gray border at bottom of image */
+}
+
+.box h3 {
+    margin: 1rem 0; /* Adjust margin to fit within the box */
+    padding: 0 1rem; /* Add padding for better spacing */
+    font-size: 1.5rem;
+    color: #4CAF50; /* Green text color */
+}
+
+.box p {
+    margin: 0; /* Remove margin to ensure consistent spacing */
+    padding: 1rem; /* Add padding inside the box */
+    text-align: center; /* Center align text */
+    font-size: 1rem;
+    color: #555; /* Dark gray text color */
+}
+
+.box:hover {
+    transform: scale(1.05); /* Slightly scale up the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex: 1 1 100%; /* Stack boxes on smaller screens */
+    }
+}

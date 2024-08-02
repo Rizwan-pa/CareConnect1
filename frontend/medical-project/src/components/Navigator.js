@@ -1,6 +1,6 @@
 import React from 'react'
-import '../components/navigator.css'
 import { Link } from 'react-router-dom'
+import '../components/navigator.css'
 function Navigator() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Navigator() {
                     <span  style={{textDecoration:'none'}}>Home</span>
                 </Link>
                 <Link to={'/contact'} className='de'><span >Contact</span></Link>
-                <Link to={'/'} className='de'><span >Diet</span></Link>
+                <Link to={'/diet'} className='de'><span >Diet</span></Link>
                 <Link to={'/'} className='de'><span >Research</span></Link>
                 <Link to={'/'} className='de'><span >Sign in</span></Link>
             </div>

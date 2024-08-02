@@ -1,6 +1,6 @@
-import React from 'react'
-import './contact.css';
+import React from 'react';
 import Navigator from '../components/Navigator';
+import './contact.css';
 function Contact() {
   return (
     <div>

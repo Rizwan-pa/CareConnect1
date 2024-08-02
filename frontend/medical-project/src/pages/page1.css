@@ -1,13 +1,12 @@
 .back{
-    height: 35rem;
+    height: 50rem;
     background-image: url('https://sciencebusiness.net/sites/default/files/styles/article/public/2021-08/AI-Healthcare_1050x450.jpg?itok=HOMCDMK-');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100rem;
+    width: 100%;
 }
 body{
    background-color: #011e3c;
-   overflow-x: hidden;
 }
 .headi{
     text-align: center;
@@ -15,7 +14,7 @@ body{
 .middle{
     height: 25rem;
     background-color: white;
-    width: 100rem;
+    width: 100%;
 }
 .text{
  

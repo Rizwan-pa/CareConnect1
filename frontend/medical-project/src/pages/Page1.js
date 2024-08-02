@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Footer from '../components/Footer';
 import Navigator from '../components/Navigator';
 import '../pages/page1.css';
-import Footer from '../components/Footer';
 function Page1() {
-       
   return (
     <div>
          <div>
