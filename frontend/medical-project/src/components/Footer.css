@@ -1,18 +1,21 @@
 .footer-section{
-    height: 160px;
+    height: 130px;
     background-color: white;
      padding-top: 1px;
     width: 100rem;
   
 }
-.content{
-    
-    margin-left: 250px;
-}
+
 .content h2{
     text-align: center;
     position: relative;
-    right: 200px;
+    right: 100px;
    
     
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 100px;
 }

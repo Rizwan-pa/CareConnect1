@@ -11,7 +11,7 @@ function Navigator() {
                 <Link to={'/'} className='de'>
                     <span  style={{textDecoration:'none'}}>Home</span>
                 </Link>
-                <Link to={'/'} className='de'><span >Contact</span></Link>
+                <Link to={'/contact'} className='de'><span >Contact</span></Link>
                 <Link to={'/'} className='de'><span >Diet</span></Link>
                 <Link to={'/'} className='de'><span >Research</span></Link>
                 <Link to={'/'} className='de'><span >Sign in</span></Link>

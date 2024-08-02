@@ -22,7 +22,7 @@ function Page1() {
             </div>
         
            <div className='outerdetails' >
-           <h1 className='headi'>WELCOME TO OUR WORLD</h1>
+           <h1 className='headi'>WELCOME TO OUR WORLD</h1><br></br>
            <h3 className='subhead'>ABOUT US</h3>
            <p>
            Welcome to CareConnect, your trusted source for accurate health information and professional medical advice. In today's digital age, misinformation about health and diseases is rampant on social media, leading to serious health risks such as improper self-treatment and delayed professional consultation. At CareConnect, we are dedicated to combating this widespread issue by providing a reliable platform where health professionals share verified data and offer expert consultations.<br></br><br></br>
