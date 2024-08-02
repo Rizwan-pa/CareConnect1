@@ -1,0 +1,35 @@
+.image{
+   height: 6rem;
+   margin-top: 12px;
+}
+.outer{
+    height: 8rem;
+    color: white;
+
+}
+.name{
+    vertical-align: middle;
+    margin-left: 1%;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+.head{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35%;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+   
+}
+.de{
+    color: white;
+    text-decoration: none;
+    
+}
+.de:hover{
+    color: gray;
+}

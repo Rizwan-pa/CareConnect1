@@ -1,0 +1,18 @@
+.footer-section{
+    height: 160px;
+    background-color: white;
+     padding-top: 1px;
+    width: 100rem;
+  
+}
+.content{
+    
+    margin-left: 250px;
+}
+.content h2{
+    text-align: center;
+    position: relative;
+    right: 200px;
+   
+    
+}
