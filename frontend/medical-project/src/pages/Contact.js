@@ -11,8 +11,8 @@ function Contact() {
             <p align={'center'} style={{fontSize:'29px'}}>
             Your Health Matters Most—Connect with Us for Expert Care!
             </p>
-            
-            <p align={'center'} style={{fontSize:'25px'}}>You can also reach me on</p>
+           
+            <p align={'center'} style={{fontSize:'25px'}}>You can also reach us on</p>
             
        <p align={"center"}>CareConnect@gmail.com</p>   
        <p align={'center'}>©careconnect 2017 All Rights Reserved.</p>
@@ -20,7 +20,7 @@ function Contact() {
         <div className='info'>
         <h2 align={'center'} className='heading'>Contact</h2>
         <form action="https://api.web3forms.com/submit" method="POST">
-        <table cellSpacing={'20px'}>
+        <table cellSpacing={'20px'} className='tableouter'>
             <input type="hidden" name="access_key" value="75f1a935-31c0-41bd-81c8-79116228daf2"></input>
             <tr>
                 <td><label>Name:</label></td>

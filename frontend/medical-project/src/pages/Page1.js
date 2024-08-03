@@ -13,7 +13,9 @@ function Page1() {
             <div className='middle' >
             <section >
                <div className='details'>
+                  <div>
                    <img  className='imh' src='https://media.istockphoto.com/id/136188786/vector/heart.jpg?s=612x612&w=0&k=20&c=X4mkO5CMyJgUf7A2U4KSaxpDaoLetCpO0pkBSbDlvoo='></img>
+                   </div>
                    <div className='text'>
                    <label ><h2>CareConnect: How Can we help you?</h2></label>
                    </div>

@@ -1,9 +1,9 @@
 .back{
-    height: 35rem;
+    height: 50rem;
     background-image: url('https://sciencebusiness.net/sites/default/files/styles/article/public/2021-08/AI-Healthcare_1050x450.jpg?itok=HOMCDMK-');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100rem;
+    width: 100%;
 }
 body{
    background-color: #011e3c;
@@ -15,29 +15,33 @@ body{
 .middle{
     height: 25rem;
     background-color: white;
-    width: 100rem;
+    width: 100%;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    
+
 }
 .text{
- 
-   font-size: 30px;
-   position: absolute;
-   top: 120%;
-   left: 35%;
-  
-    
+    margin-top: 7%;
+   
 }
-
+.text h2{
+    font-size: 300%;
+}
 .imh{
     height: 300px;
     width: 300px;
     margin-top: 70px;
-    margin-left: 13%;
+    margin-left: 70%;
    
 }
 .text{
     animation: CSSschrollReveal ease-in-out;
     animation-timeline: view();
-    animation-range: entry 0% cover 50%;
+    animation-range: entry 0% cover 20%;
 }
 @keyframes CSSschrollReveal{
     from{
