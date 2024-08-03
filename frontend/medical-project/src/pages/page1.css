@@ -1,8 +1,11 @@
 .back{
-    height: 50rem;
-    background-image: url('https://sciencebusiness.net/sites/default/files/styles/article/public/2021-08/AI-Healthcare_1050x450.jpg?itok=HOMCDMK-');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    
+    height: 70%;
+    width: 100%;
+}
+.imag1{
+    height: 700px;
     width: 100%;
 }
 body{

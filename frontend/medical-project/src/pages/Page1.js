@@ -8,7 +8,7 @@ function Page1() {
          <div>
            <Navigator/>
            <div className='back'>  </div>
-           
+                  <img  className='imag1' src='.\images\shutterstock_324146678-848x0-c-default.jpg'></img>
             <div className='middle' >
             <section >
                <div className='details'>

@@ -22,7 +22,7 @@ function Sign() {
         {isLogin ? (
           <>
            
-            <div>
+            <div className='box2'>
             <h2 style={{color:'white'}}>Login</h2>
             <form>
               <div className="input-group">
